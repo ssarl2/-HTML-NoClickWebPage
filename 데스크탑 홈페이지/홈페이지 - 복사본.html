@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="display:table;margin:auto;">
+<head>
+    <meta charset="utf-8" />
+    <title>홈페이지</title>
+    <style>
+        div#menu {
+            font-size: 14px;
+            color: #339;
+            cursor: pointer;
+            left: 44px;
+            top: 245px;
+        }
+        div#menu_selected {
+            font-size: 14px;
+            color: #A9DEF8;
+            cursor: pointer;
+            left: 46px;
+            top: 246px;
+            width: 47px;
+        }
+		@font-face {
+			font-family:NanumPen;
+			src:url('NanumPen.ttf') format('truetype'),
+				url('NanumPen.woff') format('woff'),
+				url('NanumPen.eot') format('eot');
+		}
+    </style>
+</head>
+<body style="position:relative;">
+    <!-- 바디 시작 지점 -->
+    <div>
+        <p><img src="위쪽여백사진.jpg" width="700" height="1"></p>
+        <p>
+            <a onmouseover="timer1=setTimeout(function(){location.href='홈페이지.html';}, 4000);" onmouseout="clearTimeout(timer1);">
+                <img src="카페마스코트.jpg" width="84" height="153">
+            </a>
+            <img src="위쪽여백사진.jpg" width="150" height="1">
+            <img src="선명리에또.jpg" width="200" height="120">
+        </p>
+        <p>&nbsp;</p>
+    </div>
+    <!-- 위 제목 끝나는 지점 -->
+    <div>
+        <img src="위쪽여백사진.jpg" width="150" height="1">
+        <img src="메뉴6.png" alt="" width="400" height="400" border="0" usemap="#Map">
+        <map name="Map">
+            <area shape="poly" coords="149,270,135,258,119,235,113,209,32,219,24,299,106,344" onmouseover="javascript:location.href='메뉴/커피종류/커피종류.html'">
+            <area shape="poly" coords="196,116,194,22,57,81,129,147,152,127,170,121" onmouseover="javascript:location.href='메뉴/소개/소개.html'">
+            <area shape="poly" coords="111,208,114,182,123,156,127,148,57,83,22,176,35,216" onmouseover="javascript:location.href='메뉴/채용/채용.html'">
+            <area shape="poly" coords="197,115,196,26,313,80,323,96,260,142,239,128,217,120" onmouseover="javascript:location.href='메뉴/이벤트/이벤트.html'">
+            <area shape="poly" coords="260,144,323,96,372,171,353,218,321,218,279,210,278,190,270,168" onmouseover="javascript:location.href='메뉴/지원/지원하기.html'">
+            <area shape="poly" coords="244,270,265,245,277,222,278,209,359,225,286,337" onmouseover="javascript:location.href='메뉴/창업자/창업자들.html'">
+            <area shape="poly" coords="242,270,211,283,173,280,148,271,105,343,294,353" onmouseover="javascript:location.href='홈페이지.html'">
+        </map>
+        <div style="position: absolute; left: 372px; top: 332px; font-family:NanumPen; font-size:20px;">이벤트</div>
+        <div style="position: absolute; left: 319px; top: 529px; font-family:NanumPen; font-size:20px;">메뉴 닫기</div>
+        <div style="position: absolute; left: 429px; top: 472px; width: 36px; font-family:NanumPen; font-size:20px;">창업자들</div>
+        <div style="position: absolute; left: 439px; top: 383px; width: 36px; font-family:NanumPen; font-size:20px;">지원하기</div>
+        <div style="position: absolute; left: 244px; top: 468px; width: 28px; font-family:NanumPen; font-size:20px;">커피종류</div>
+        <div style="position: absolute; left: 237px; top: 391px; font-family:NanumPen; font-size:20px;">채용</div>
+        <div style="position: absolute; left: 292px; top: 336px; font-family:NanumPen; font-size:20px;">소개</div>
+    </div>
+    <footer style="font-size: 12px;">
+        <hr>
+        <p>NoClickMouseHtml5 - NCMH</p>
+        <p>동서대학교 UIT관 308호 공동창업</p>
+        <p>open 09 : 00 - close 13 : 00 </p>
+        <p>Copyright@by line light. All right reserved</p>
+    </footer>
+</body>
+</html>

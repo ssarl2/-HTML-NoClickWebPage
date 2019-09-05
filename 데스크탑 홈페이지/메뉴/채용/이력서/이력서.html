@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="display:table;margin:auto;">
+<head>
+    <meta charset="utf-8" />
+    <title>이력서</title>
+</head>
+<body>
+    <!-- 바디 시작 지점 -->
+    <div>
+        <p><img src="../../../위쪽여백사진.jpg" width="700" height="1"></p>
+        <p>
+            <a onmouseover="timer1=setTimeout(function(){location.href='../../../홈페이지.html';}, 1000);" onmouseout="clearTimeout(timer1);">
+                <img src="../../../카페마스코트.jpg" width="84" height="153">
+            </a>
+            <img src="../../../위쪽여백사진.jpg" width="150" height="1">
+            <img src="../../../선명리에또.jpg" width="200" height="120">
+            <img src="../../../위쪽여백사진.jpg" width="130" height="1">
+            <a onmouseover="timer1=setTimeout(function(){location.href='../채용.html';}, 1000);" onmouseout="clearTimeout(timer1);">
+                <img src="../../../뒤로가기.png" width="80" height="120">
+            </a>
+        </p>
+        <p>&nbsp;</p>
+    </div>
+    <!-- 위 제목 끝나는 지점 -->
+    <div>
+        <blockquote>
+            <form>
+                <p>
+                    <label for="name">성명 </label>
+                    <input name="name" type="text" autofocus id="name" placeholder="Name" size="8" required />
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;성별 &nbsp;&nbsp;</label>
+                    <label>남 </label>
+                    <input name="s" type="radio" checked>
+                    <label>여 </label>
+                    <input name="s" type="radio">
+                </p>
+                <p>
+                    <label for="peoplenumber">주민등록번호 </label>
+                    <input name="peoplenumber" type="text" id="peoplenumber" size="4" maxlength="6" />
+                    -
+                    <input type="text" size="4" maxlength="7" />
+                </p>
+                <p>
+                    <label>휴대전화번호 </label>
+                    <select required>
+                        <optgroup label="선택하세요">
+                            <option>010</option>
+                            <option>011</option>
+                            <option>016</option>
+                            <option>018</option>
+                            <option>019</option>
+                        </optgroup>
+                    </select>
+                    <input type="text" size="2" maxlength="4" required />
+                    -
+                    <input type="text" size="2" maxlength="4" required />
+                </p>
+                <p>
+                    <label for="place">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소 </label>
+                    <input name="place" type='text' id="place" size="40">
+                </p>
+                <p>
+                    <label for="deepplace">상세주소 </label>
+                    <input name="deepplace" type='text' id="deepplace" size="40">
+                </p>
+                <p>
+                    <label for="email_t">이메일 </label>
+                    <input name="email_t" type="text" id="email_t" size="10" />
+                    @
+                    <input type="text" list="email" placeholder="직접입력" size="15" />
+                    <datalist id="email">
+                        <option label="네이버" value="naver.com" />
+                        <option label="다음" value="daum.net" />
+                        <option label="구글" value="google.com" />
+                        <option label="드림위즈" value="dreamwiz.com" />
+                    </datalist>
+                </p>
+                <table border="1">
+                    <tr>
+                        <th colspan='2'>경력</th>
+                    </tr>
+                    <tr>
+                        <th width="168">기간</th>
+                        <th width="380">내용</th>
+                    </tr>
+                    <tr>
+                        <td><input type='text'></td>
+                        <td><input type='text' size="56"></td>
+                    </tr>
+                    <tr>
+                        <td><input type='text'></td>
+                        <td><input type='text' size="56"></td>
+                    </tr>
+                    <tr>
+                        <td><input type='text'></td>
+                        <td><input type='text' size="56"></td>
+                    </tr>
+                    <tr>
+                        <td><input type='text'></td>
+                        <td><input type='text' size="56"></td>
+                    </tr>
+                </table>
+                <br>
+                <div style="width:560px; text-align:right;">
+                    <input type='submit' value='이력서제출'>
+                </div>
+            </form>
+        </blockquote>
+    </div>
+    <footer style="font-size: 12px;">
+        <hr>
+        <p>NoClickMouseHtml5 - NCMH</p>
+        <p>동서대학교 UIT관 308호 공동창업</p>
+        <p>open 09 : 00 - close 13 : 00 </p>
+        <p>Copyright@by line light. All right reserved</p>
+    </footer>
+</body>
+</html>

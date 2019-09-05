@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="display:table;margin:auto;">
+<head>
+    <meta charset="utf-8" />
+    <title>이벤트</title>
+    <style>
+		@font-face {
+				font-family:NanumPen;
+				src:url('../../NanumPen.ttf') format('truetype'),
+					url('../../NanumPen.woff') format('woff'),
+					url('../../NanumPen.eot') format('eot');
+			}
+	</style>
+</head>
+<body style="position:relative;">
+    <!-- 바디 시작 지점 -->
+    <div>
+        <p><img src="../../위쪽여백사진.jpg" width="700" height="1"></p>
+        <p>
+            <a onmouseover="timer1=setTimeout(function(){location.href='../../홈페이지.html';}, 1000);" onmouseout="clearTimeout(timer1);">
+                <img src="../../카페마스코트.jpg" width="84" height="153">
+            </a>
+            <img src="../../위쪽여백사진.jpg" width="150" height="1">
+            <img src="../../선명리에또.jpg" width="200" height="120">
+            <img src="../../../위쪽여백사진.jpg" width="130" height="1">
+            <a onmouseover="timer1=setTimeout(function(){location.href='../../홈페이지.html';}, 400);" onmouseout="clearTimeout(timer1);">
+                <img src="../../뒤로가기.png" width="80" height="120">
+            </a>
+        </p>
+        <p>&nbsp;</p>
+    </div>
+    <!-- 위 제목 끝나는 지점 -->
+    <div>
+        <p>
+            <img src="위쪽여백사진.jpg" width="150" height="1"><img src="메뉴4.png" width="400" height="400" border="0" usemap="#Map">
+            <map name="Map">
+                <area shape="poly" coords="79,148,118,166,112,205,121,240,133,259,69,319,25,183" onmouseover="javascript:location.href='계절별 이벤트/봄 이벤트.html'">
+                <area shape="poly" coords="195,114,197,47,80,65,24,127,80,149,118,164,141,136,167,122" onmouseover="javascript:location.href='계절별 이벤트/여름 이벤트.html'">
+                <area shape="poly" coords="273,167,348,139,294,38,199,44,195,113,226,120,257,141" onmouseover="javascript:location.href='계절별 이벤트/가을 이벤트.html'">
+                <area shape="poly" coords="274,166,348,140,352,248,333,305,319,316,258,260,273,231,279,196" onmouseover="javascript:location.href='계절별 이벤트/겨울 이벤트.html'">
+                <area shape="poly" coords="258,258,316,316,200,369,72,320,133,261,165,278,222,279" onmouseover="javascript:location.href='이벤트.html'">
+            </map>
+        </p>
+        <div style="position: absolute; cursor:pointer; left: 238px; top: 460px; font-family:NanumPen; font-size:20px;">봄</div>
+      <div style="position: absolute; cursor:pointer; left: 267px; top: 346px; font-family:NanumPen; font-size:20px;">여름</div>
+      <div style="position: absolute; cursor:pointer; left: 395px; top: 349px; font-family:NanumPen; font-size:20px;">가을</div>
+        <div style="position: absolute; cursor:pointer; left: 433px; top: 453px; font-family:NanumPen; font-size:20px;">겨울</div>
+        <div style="position: absolute; cursor:pointer; left: 317px; top: 530px; font-family:NanumPen; font-size:20px;">메뉴 닫기</div>
+    </div>
+    <footer style="font-size: 12px;">
+        <hr>
+        <p>NoClickMouseHtml5 - NCMH</p>
+        <p>동서대학교 UIT관 308호 공동창업</p>
+        <p>open 09 : 00 - close 13 : 00 </p>
+        <p>Copyright@by line light. All right reserved</p>
+    </footer>
+</body>
+</html>
