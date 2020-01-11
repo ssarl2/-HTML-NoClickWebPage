@@ -13,5 +13,5 @@ Just download the folders and double click WebPageForDesktop/홈페이지.html i
 [![demonstrations](https://img.youtube.com/vi/jSYao6pXsvM/0.jpg)](https://www.youtube.com/watch?v=jSYao6pXsvM)
 
 
-Ps. The files name are only in korean. Because I did this project in 2014 and when I don't speak English.<br>
+Ps. The files name are only in korean. Because I did this project in 2014 and when I didn't speak English.<br>
 Instead, there is a demonstration<br>
