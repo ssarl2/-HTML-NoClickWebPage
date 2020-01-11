@@ -1,5 +1,5 @@
 # Needs
-Mostly with HTML
+Mostly with HTML. I tried this html with chrome on windows 10, 7
 
 # How to install or use this
 Just download the folders and double click WebPageForDesktop/홈페이지.html if you are in desktop environment
