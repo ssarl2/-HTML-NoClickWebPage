@@ -1,0 +1,29 @@
+@startuml
+
+:User: --> (Main)
+
+(Main) <--> (Kind_of_coffee)
+
+(Main) <--> (Hire)
+(Hire) <--> (Apply)
+(Hire) --> (Main)
+(Apply) --> (Main)
+
+(Main) <--> (Introduce)
+
+(Main) <--> (Events)
+(Events) <--> (Spring)
+(Events) <--> (Summer)
+(Events) <--> (Autumn)
+(Events) <--> (Winter)
+(Spring) --> (Main)
+(Summer) --> (Main)
+(Autumn) --> (Main)
+(Winter) --> (Main)
+
+(Main) <--> (Contribute)
+
+(Main) <--> (Founders)
+
+
+@enduml
