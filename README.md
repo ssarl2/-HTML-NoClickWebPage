@@ -4,6 +4,8 @@ Mostly with HTML. I tried this html with chrome on windows 10, 7
 # How to install or use this
 Just download the folders and double click WebPageForDesktop/홈페이지.html if you are in desktop environment
 
+
+# Web structure
 ![PageArchitecture](https://user-images.githubusercontent.com/37391569/72203464-9fcbb680-3474-11ea-9125-7b418cbc5bf1.png)
 
 
